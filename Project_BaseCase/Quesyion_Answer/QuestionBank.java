@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class QuestionBank{
-    public static ArrayList<Question> getQuestions(){
+    public static ArrayList<Question> getQuestions() throws Exception{
         ArrayList<Question> questionBank=new ArrayList<>();
             //Add MCQ questois bellow:
                 questionBank.add(new MCQQuestion("Java keyword for inheritance?",AnswerOption.B,"implements","extends","inherits","super",10));
